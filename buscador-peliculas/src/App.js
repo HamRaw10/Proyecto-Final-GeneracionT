@@ -41,9 +41,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1>🎬 Buscador de Películas</h1>
+      <h1>Busquea la pelicula que desea</h1>
       
-      {/* Buscador */}
+      {       }
       <div className="search-box">
         <input
           type="text"
@@ -55,7 +55,7 @@ function App() {
         <button onClick={searchMovies}>Buscar</button>
       </div>
 
-      {/* Lista de películas */}
+      {             }
       {!selectedMovie ? (
         <div className="movie-list">
           {movies.map((movie) => (
@@ -78,7 +78,7 @@ function App() {
           ))}
         </div>
       ) : (
-        /* Detalle de película */
+       
         <div className="movie-details">
           <button onClick={() => setSelectedMovie(null)}>← Volver</button>
           <h2>{selectedMovie.title}</h2>
@@ -92,7 +92,7 @@ function App() {
           />
           <p>{selectedMovie.overview || 'Descripción no disponible.'}</p>
 
-          {/* Reseñas */}
+          {         }
           <div className="reviews-section">
             <h3>🌟 Deja tu reseña</h3>
             <div className="stars">
@@ -114,7 +114,7 @@ function App() {
             <button onClick={saveReview}>Guardar Reseña</button>
 
             <div className="reviews-list">
-              <h3>📝 Reseñas</h3>
+              <h3>Reseñas de la pelicula</h3>
               {(reviews[selectedMovie.id] || []).map((review, index) => (
                 <div key={index} className="review">
                   <p>{'★'.repeat(review.rating)}</p>
