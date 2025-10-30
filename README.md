@@ -22,4 +22,5 @@ Integración directa con la API de TheMovieDB
 Diseño responsive y atractivo con CSS  
 Carga dinámica sin necesidad de recargar la página
 
-#trello de la pagina https://trello.com/b/JgZI2qkU/proyecto-generaciont
+## trello de la pagina 
+https://trello.com/b/JgZI2qkU/proyecto-generaciont
