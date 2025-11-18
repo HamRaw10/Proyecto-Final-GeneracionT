@@ -24,3 +24,7 @@ Carga dinámica sin necesidad de recargar la página
 
 ## trello de la pagina 
 https://trello.com/b/JgZI2qkU/proyecto-generaciont
+
+## api key para abrir la pagina
+c63e80f2526f8f208f8ecefe456a92ce
+
